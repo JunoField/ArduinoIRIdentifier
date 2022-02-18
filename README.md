@@ -4,7 +4,7 @@
 
 | Button |  Code   |
 |--------|---------|
-|**Held down code**|-1 (decimal)|
+|**Held down code**|0 (decimal)|
 |CH-|3125149440|
 |CH|3108437760|
 |CH+|3091726080|
