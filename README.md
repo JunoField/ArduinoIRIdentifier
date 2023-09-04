@@ -1,4 +1,10 @@
 # IRTest
+Just a quick demo sketch for the generic "Car MP3" remote controls included with many Arduino starter kits, such as this:
+https://www.aliexpress.com/item/4000683769904.html 
+
+Simply sends the name of the button over serial when it is pressed.
+
+Currently using Pin 4 for the IR receiver and a serial baud rate of 9600.
  
 ## Remote codes
 
