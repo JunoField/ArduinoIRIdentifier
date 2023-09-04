@@ -1,5 +1,5 @@
 #include <IRremote.hpp>
-const int RECV_PIN = 7;
+const int RECV_PIN = 4;
 IRrecv irrecv(RECV_PIN);
 
 String buttons[] = {"CH-", "CH", "CH+", "Prev", "Next", "Play", "Vol-", "Vol+", "EQ", "0", "100+", "200+", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
@@ -7,9 +7,8 @@ uint32_t codes[] = {3125149440, 3108437760, 3091726080, 3141861120, 3208707840, 
 
 
 void setup(){
-    Serial.begin(9600);
+    Serial.begin(115200);
     irrecv.enableIRIn();
-    irrecv.blink13(true);
 }
 
 void loop(){
