@@ -7,7 +7,7 @@ uint32_t codes[] = {3125149440, 3108437760, 3091726080, 3141861120, 3208707840, 
 
 
 void setup(){
-    Serial.begin(115200);
+    Serial.begin(9600);
     irrecv.enableIRIn();
 }
 
